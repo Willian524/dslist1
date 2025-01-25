@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.willian.dslist.dto.GameDTO;
+
 import com.willian.dslist.dto.GameListDTO;
-import com.willian.dslist.dto.GameMinDTO;
-import com.willian.dslist.entities.Game;
+
+
 import com.willian.dslist.entities.GameList;
 import com.willian.dslist.repository.GameListRepository;
-import com.willian.dslist.repository.GameRepository;
+
 @Service
 public class GameListService {
 	@Autowired	
